@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'launchy'
   s.add_development_dependency 'rspec-rails', '~> 2.14.0'
   s.add_development_dependency 'capybara', '2.1.0'
-  s.add_development_dependency 'rails', '4.0.0'
+  s.add_development_dependency 'rails', '~> 4.0'
   s.add_development_dependency 'jquery-rails'
 
   s.add_development_dependency 'factory_girl_rails', '~> 3.6.0'
@@ -21,13 +21,13 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'kaminari', '~> 0.15.0'
   s.add_development_dependency 'timecop', '~> 0.6.1'
 
-  s.add_dependency 'rails', '~> 4.0.0'
-  s.add_dependency 'simple_form', '~> 3.0.0.rc'
-  s.add_dependency 'sanitize', '2.0.6'
-  s.add_dependency 'friendly_id', '5.0.2'
-  s.add_dependency 'workflow', '1.0.0'
-  s.add_dependency 'gemoji', '= 1.1.2'
-  s.add_dependency 'decorators', '~> 1.0.2'
-  s.add_dependency 'select2-rails', '~> 3.5.4'
-  s.add_dependency 'friendly_id', '~> 5.0.0'
+  s.add_dependency 'rails', '~> 4.0'
+  s.add_dependency 'simple_form', '~> 3.0'
+  s.add_dependency 'sanitize', '~> 2.0'
+
+  s.add_dependency 'workflow', '~> 1.0'
+  s.add_dependency 'gemoji', '~> 1.1'
+  s.add_dependency 'decorators', '~> 1.0'
+  # s.add_dependency 'select2-rails', '~> 3.5.4'
+  s.add_dependency 'friendly_id', '~> 5.0'
 end
